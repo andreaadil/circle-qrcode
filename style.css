@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.top, .bottom {
+  position: absolute;
+}
+
+.outer-box {
+  position: relative;
+}
+
+.inner-box {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  top: 50px;
+  left: 50px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.qrcode-outer-house {
+  position: absolute;
+  left: -25px;
+  top: -25px;
+}
+
+.qrcode-house {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+#centre {
+  top: 50px;
+  left: 50px;
+}
+
+#top-left {
+  top: 0;
+  left: 0;
+}
+
+#top-right {
+  top: 0;
+  right: 0;
+}
+
+#bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+#bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+#tlbox {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 47px;
+  left: 48px;
+  border-top: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+}
+
+#trbox {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 47px;
+  left: 125px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+
+#blbox {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 125px;
+  left: 48px;
+  border-bottom: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+}
+
+#brbox {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+  border-bottom: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
